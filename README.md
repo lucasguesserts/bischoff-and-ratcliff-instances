@@ -39,6 +39,18 @@ The line for each box type contains 8 numbers:
 
 After each box dimension, the 0/1 indicates whether placement in the vertical orientation is permissible (=1) or not (=0).
 
+## Input File Format
+
+The [Input File Format](https://github.com/lucasguesserts/packing-visualizer/blob/3d1e9ec4fb880e3e90978562218c40c4bd7c6f49/src/file_format/input/0_0_0.json) is specified using [json-schema](https://json-schema.org/). All its versions can be found in the [packing-visualizer repository](https://github.com/lucasguesserts/packing-visualizer).
+
+The original data has been converted to such format. Each instance must be specified in its own file, so the instances of each set are in its own directory. Besides, there is a file containing the data of all instances (so one can load a single file instead of many ones).
+
+[This is the directory with the data](./data) and [this is the single file version](./data/data.json).
+
+## Tools
+
+There are tools used to convert the files from their original format to the Input File Format. They can be found in the [tool directory](./tools).
+
 ## References
 
 1. [Page of Professor J. E. Beasley with the data and description of the instances](http://people.brunel.ac.uk/~mastjjb/jeb/orlib/thpackinfo.html)
