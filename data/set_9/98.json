@@ -1,0 +1,251 @@
+{
+  "type": "input",
+  "version": "0.0.0",
+  "large_object": {
+    "length": 587,
+    "width": 233,
+    "height": 220
+  },
+  "small_items": [
+    {
+      "length": 106,
+      "width": 55,
+      "height": 38,
+      "quantity": 4
+    },
+    {
+      "length": 69,
+      "width": 50,
+      "height": 48,
+      "quantity": 5
+    },
+    {
+      "length": 106,
+      "width": 63,
+      "height": 57,
+      "quantity": 6
+    },
+    {
+      "length": 71,
+      "width": 66,
+      "height": 51,
+      "quantity": 5
+    },
+    {
+      "length": 62,
+      "width": 41,
+      "height": 36,
+      "quantity": 6
+    },
+    {
+      "length": 75,
+      "width": 49,
+      "height": 39,
+      "quantity": 3
+    },
+    {
+      "length": 90,
+      "width": 64,
+      "height": 53,
+      "quantity": 3
+    },
+    {
+      "length": 96,
+      "width": 79,
+      "height": 55,
+      "quantity": 1
+    },
+    {
+      "length": 83,
+      "width": 75,
+      "height": 67,
+      "quantity": 4
+    },
+    {
+      "length": 58,
+      "width": 48,
+      "height": 30,
+      "quantity": 4
+    },
+    {
+      "length": 81,
+      "width": 59,
+      "height": 24,
+      "quantity": 5
+    },
+    {
+      "length": 71,
+      "width": 56,
+      "height": 41,
+      "quantity": 4
+    },
+    {
+      "length": 111,
+      "width": 76,
+      "height": 40,
+      "quantity": 5
+    },
+    {
+      "length": 113,
+      "width": 27,
+      "height": 26,
+      "quantity": 5
+    },
+    {
+      "length": 50,
+      "width": 41,
+      "height": 36,
+      "quantity": 5
+    },
+    {
+      "length": 57,
+      "width": 55,
+      "height": 50,
+      "quantity": 6
+    },
+    {
+      "length": 42,
+      "width": 25,
+      "height": 21,
+      "quantity": 2
+    },
+    {
+      "length": 115,
+      "width": 44,
+      "height": 29,
+      "quantity": 6
+    },
+    {
+      "length": 78,
+      "width": 54,
+      "height": 52,
+      "quantity": 2
+    },
+    {
+      "length": 87,
+      "width": 68,
+      "height": 31,
+      "quantity": 4
+    },
+    {
+      "length": 108,
+      "width": 87,
+      "height": 37,
+      "quantity": 3
+    },
+    {
+      "length": 97,
+      "width": 28,
+      "height": 27,
+      "quantity": 4
+    },
+    {
+      "length": 79,
+      "width": 77,
+      "height": 42,
+      "quantity": 1
+    },
+    {
+      "length": 94,
+      "width": 82,
+      "height": 51,
+      "quantity": 2
+    },
+    {
+      "length": 113,
+      "width": 89,
+      "height": 67,
+      "quantity": 3
+    },
+    {
+      "length": 93,
+      "width": 59,
+      "height": 41,
+      "quantity": 5
+    },
+    {
+      "length": 67,
+      "width": 40,
+      "height": 37,
+      "quantity": 3
+    },
+    {
+      "length": 66,
+      "width": 51,
+      "height": 44,
+      "quantity": 4
+    },
+    {
+      "length": 75,
+      "width": 42,
+      "height": 32,
+      "quantity": 2
+    },
+    {
+      "length": 51,
+      "width": 46,
+      "height": 40,
+      "quantity": 3
+    },
+    {
+      "length": 96,
+      "width": 51,
+      "height": 41,
+      "quantity": 4
+    },
+    {
+      "length": 98,
+      "width": 32,
+      "height": 24,
+      "quantity": 2
+    },
+    {
+      "length": 91,
+      "width": 86,
+      "height": 54,
+      "quantity": 4
+    },
+    {
+      "length": 52,
+      "width": 52,
+      "height": 30,
+      "quantity": 3
+    },
+    {
+      "length": 58,
+      "width": 51,
+      "height": 36,
+      "quantity": 2
+    },
+    {
+      "length": 83,
+      "width": 45,
+      "height": 41,
+      "quantity": 4
+    },
+    {
+      "length": 116,
+      "width": 43,
+      "height": 26,
+      "quantity": 6
+    },
+    {
+      "length": 95,
+      "width": 71,
+      "height": 57,
+      "quantity": 3
+    },
+    {
+      "length": 98,
+      "width": 50,
+      "height": 37,
+      "quantity": 3
+    },
+    {
+      "length": 71,
+      "width": 45,
+      "height": 41,
+      "quantity": 4
+    }
+  ]
+}
