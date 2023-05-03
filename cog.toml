@@ -1,0 +1,2 @@
+[commit_types]
+merge = { changelog_title = "Merge" }
