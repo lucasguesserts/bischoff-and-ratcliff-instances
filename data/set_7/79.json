@@ -1,0 +1,131 @@
+{
+  "type": "input",
+  "version": "0.0.0",
+  "large_object": {
+    "length": 587,
+    "width": 233,
+    "height": 220
+  },
+  "small_items": [
+    {
+      "length": 64,
+      "width": 48,
+      "height": 46,
+      "quantity": 6
+    },
+    {
+      "length": 79,
+      "width": 25,
+      "height": 22,
+      "quantity": 9
+    },
+    {
+      "length": 89,
+      "width": 85,
+      "height": 33,
+      "quantity": 12
+    },
+    {
+      "length": 79,
+      "width": 66,
+      "height": 34,
+      "quantity": 12
+    },
+    {
+      "length": 79,
+      "width": 54,
+      "height": 31,
+      "quantity": 10
+    },
+    {
+      "length": 115,
+      "width": 95,
+      "height": 22,
+      "quantity": 7
+    },
+    {
+      "length": 76,
+      "width": 54,
+      "height": 44,
+      "quantity": 10
+    },
+    {
+      "length": 80,
+      "width": 44,
+      "height": 29,
+      "quantity": 8
+    },
+    {
+      "length": 66,
+      "width": 33,
+      "height": 26,
+      "quantity": 6
+    },
+    {
+      "length": 50,
+      "width": 32,
+      "height": 32,
+      "quantity": 8
+    },
+    {
+      "length": 116,
+      "width": 93,
+      "height": 21,
+      "quantity": 14
+    },
+    {
+      "length": 113,
+      "width": 64,
+      "height": 50,
+      "quantity": 6
+    },
+    {
+      "length": 101,
+      "width": 80,
+      "height": 31,
+      "quantity": 4
+    },
+    {
+      "length": 96,
+      "width": 76,
+      "height": 46,
+      "quantity": 8
+    },
+    {
+      "length": 61,
+      "width": 61,
+      "height": 26,
+      "quantity": 5
+    },
+    {
+      "length": 108,
+      "width": 26,
+      "height": 23,
+      "quantity": 9
+    },
+    {
+      "length": 96,
+      "width": 88,
+      "height": 31,
+      "quantity": 7
+    },
+    {
+      "length": 80,
+      "width": 61,
+      "height": 47,
+      "quantity": 9
+    },
+    {
+      "length": 87,
+      "width": 74,
+      "height": 35,
+      "quantity": 11
+    },
+    {
+      "length": 61,
+      "width": 51,
+      "height": 50,
+      "quantity": 5
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "type": "input",
+  "version": "0.0.0",
+  "large_object": {
+    "length": 587,
+    "width": 233,
+    "height": 220
+  },
+  "small_items": [
+    {
+      "length": 99,
+      "width": 68,
+      "height": 23,
+      "quantity": 20
+    },
+    {
+      "length": 68,
+      "width": 52,
+      "height": 40,
+      "quantity": 18
+    },
+    {
+      "length": 101,
+      "width": 66,
+      "height": 61,
+      "quantity": 16
+    },
+    {
+      "length": 57,
+      "width": 56,
+      "height": 22,
+      "quantity": 13
+    },
+    {
+      "length": 81,
+      "width": 54,
+      "height": 47,
+      "quantity": 15
+    },
+    {
+      "length": 86,
+      "width": 34,
+      "height": 25,
+      "quantity": 19
+    },
+    {
+      "length": 54,
+      "width": 46,
+      "height": 27,
+      "quantity": 16
+    },
+    {
+      "length": 95,
+      "width": 65,
+      "height": 34,
+      "quantity": 14
+    },
+    {
+      "length": 105,
+      "width": 57,
+      "height": 29,
+      "quantity": 13
+    },
+    {
+      "length": 120,
+      "width": 63,
+      "height": 28,
+      "quantity": 12
+    },
+    {
+      "length": 64,
+      "width": 62,
+      "height": 42,
+      "quantity": 14
+    },
+    {
+      "length": 78,
+      "width": 65,
+      "height": 21,
+      "quantity": 13
+    }
+  ]
+}

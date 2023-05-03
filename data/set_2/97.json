@@ -1,0 +1,41 @@
+{
+  "type": "input",
+  "version": "0.0.0",
+  "large_object": {
+    "length": 587,
+    "width": 233,
+    "height": 220
+  },
+  "small_items": [
+    {
+      "length": 74,
+      "width": 60,
+      "height": 32,
+      "quantity": 32
+    },
+    {
+      "length": 100,
+      "width": 50,
+      "height": 43,
+      "quantity": 33
+    },
+    {
+      "length": 95,
+      "width": 74,
+      "height": 42,
+      "quantity": 37
+    },
+    {
+      "length": 95,
+      "width": 70,
+      "height": 30,
+      "quantity": 31
+    },
+    {
+      "length": 45,
+      "width": 37,
+      "height": 24,
+      "quantity": 32
+    }
+  ]
+}

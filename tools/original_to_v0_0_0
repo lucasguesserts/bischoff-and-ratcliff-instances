@@ -1,0 +1,137 @@
+#!/bin/python
+
+import json
+import sys
+import os
+
+OUTPUT_DIR = "data/"
+
+expected_files: set[str] = {
+    "set_10.txt",
+    "set_1.txt",
+    "set_2.txt",
+    "set_3.txt",
+    "set_4.txt",
+    "set_5.txt",
+    "set_6.txt",
+    "set_7.txt",
+    "set_8.txt",
+    "set_9.txt",
+}
+
+def usage() -> None:
+    print(f"Usage:", file=sys.stderr)    
+    print(f"    {sys.argv[0]} ORIGINAL_DATA_DIR", file=sys.stderr)
+    print(f"    ORIGINAL_DATA_DIR: the directory with the files {expected_files}", file=sys.stderr)
+    print(f"    All files must be present, otherwise the conversion does not execute.", file=sys.stderr)
+    exit(1)
+
+def check_args() -> None:
+    if len(sys.argv) != 2:
+        usage()
+    original_data_dir = str(sys.argv[1])
+    if not os.path.isdir(original_data_dir):
+        usage()
+    files_in_dir: set[str] = set(os.listdir(original_data_dir))
+    if files_in_dir != expected_files:
+        usage()
+    return
+
+def get_file_paths() -> set[str]:
+    original_data_dir = str(sys.argv[1])
+    files_in_dir: set[str] = list(os.listdir(original_data_dir))
+    file_paths = list(map(
+        lambda s: os.path.join(original_data_dir, s),
+        files_in_dir
+    ))
+    file_paths = sorted(file_paths)
+    return file_paths
+
+def read_file(file_path: str) -> list[list[str]]:
+    with open(file_path, "r") as file:
+        lines: list[str] = file.readlines()
+        lines:list[list[str]] = [l.split() for l in lines]
+    return lines
+
+def gather_raw_data_of_each_instance(lines: list[list[str]]) -> dict:
+    number_of_instances = int(lines[0][0])
+    lines = lines[1:]
+    ci = 0
+    instances = {}
+    for i in range(number_of_instances):
+        p, seed = map(int, lines[ci]); ci += 1
+        L, W, H = map(int, lines[ci]); ci += 1
+        number_of_items = int(lines[ci][0]); ci += 1
+        items = []
+        for item_index in range(number_of_items):
+            item_info = list(map(int, lines[ci])); ci += 1
+            items.append(item_info)
+        instances[i] = {
+            "p": p,
+            "seed": seed,
+            "container": {
+                "L": L,
+                "W": W,
+                "H": H,
+            },
+            "items": items
+        }
+    return instances
+
+def raw_instance_data_to_input(data: dict) -> dict:
+    return {
+        "type": "input",
+        "version": "0.0.0",
+        "large_object": {
+            "length": data["container"]["L"],
+            "width": data["container"]["W"],
+            "height": data["container"]["H"]
+        },
+        "small_items": [
+            {
+                "length": data["items"][i][1],
+                "width": data["items"][i][3],
+                "height": data["items"][i][5],
+                "quantity": data["items"][i][7]
+            }
+            for i in range(len(data["items"]))
+        ]
+    }
+
+def make_instance_set_dir_path(file_path: str, output_dir: str) -> tuple[str, str]:
+    instance_set_name = os.path.basename(file_path).removesuffix(".txt")
+    dir_path = os.path.join(output_dir, instance_set_name)
+    os.makedirs(dir_path, exist_ok=True)
+    return instance_set_name, dir_path
+
+def make_input_file_path(instance_set_dir_path: str, instance_raw_data: dict) -> str:
+    instance_number = int(instance_raw_data["p"])
+    input_file_name = f'{instance_number}.json'
+    input_file_path = os.path.join(instance_set_dir_path, input_file_name)
+    return input_file_path
+
+def make_all_instances_file_path(output_dir: str) -> str:
+    return os.path.join(output_dir, "data.json")
+
+def write(file_path: str, data: dict) -> None:
+    with open(file_path, "w") as file:
+        json.dump(data, file, indent=2)
+    return
+
+if __name__ == "__main__":
+    check_args()
+    file_path_list = get_file_paths()
+    all_instances = dict()
+    for file_path in file_path_list:
+        lines = read_file(file_path)
+        raw_data_list = gather_raw_data_of_each_instance(lines)
+        instance_set_name, instance_set_dir_path = make_instance_set_dir_path(file_path, OUTPUT_DIR)
+        all_instances_in_set = []
+        for _, instance_raw_data in raw_data_list.items():
+            input_data = raw_instance_data_to_input(instance_raw_data)
+            input_file_path = make_input_file_path(instance_set_dir_path, instance_raw_data)
+            write(input_file_path, input_data)
+            all_instances_in_set.append(input_data)
+        all_instances[instance_set_name] = all_instances_in_set
+    all_instances_file_path = make_all_instances_file_path(OUTPUT_DIR)
+    write(all_instances_file_path, all_instances)

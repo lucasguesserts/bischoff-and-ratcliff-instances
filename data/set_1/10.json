@@ -1,0 +1,29 @@
+{
+  "type": "input",
+  "version": "0.0.0",
+  "large_object": {
+    "length": 587,
+    "width": 233,
+    "height": 220
+  },
+  "small_items": [
+    {
+      "length": 68,
+      "width": 66,
+      "height": 31,
+      "quantity": 44
+    },
+    {
+      "length": 120,
+      "width": 34,
+      "height": 26,
+      "quantity": 41
+    },
+    {
+      "length": 95,
+      "width": 76,
+      "height": 60,
+      "quantity": 45
+    }
+  ]
+}
