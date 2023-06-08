@@ -1,0 +1,551 @@
+{
+  "type": "input",
+  "version": "0.0.0",
+  "large_object": {
+    "length": 587,
+    "width": 233,
+    "height": 220
+  },
+  "small_items": [
+    {
+      "length": 86,
+      "width": 71,
+      "height": 41,
+      "quantity": 1
+    },
+    {
+      "length": 75,
+      "width": 58,
+      "height": 58,
+      "quantity": 1
+    },
+    {
+      "length": 100,
+      "width": 81,
+      "height": 27,
+      "quantity": 1
+    },
+    {
+      "length": 59,
+      "width": 42,
+      "height": 24,
+      "quantity": 1
+    },
+    {
+      "length": 69,
+      "width": 37,
+      "height": 30,
+      "quantity": 2
+    },
+    {
+      "length": 63,
+      "width": 50,
+      "height": 36,
+      "quantity": 2
+    },
+    {
+      "length": 96,
+      "width": 72,
+      "height": 34,
+      "quantity": 1
+    },
+    {
+      "length": 111,
+      "width": 71,
+      "height": 29,
+      "quantity": 2
+    },
+    {
+      "length": 102,
+      "width": 67,
+      "height": 53,
+      "quantity": 2
+    },
+    {
+      "length": 71,
+      "width": 34,
+      "height": 32,
+      "quantity": 3
+    },
+    {
+      "length": 88,
+      "width": 75,
+      "height": 53,
+      "quantity": 1
+    },
+    {
+      "length": 50,
+      "width": 46,
+      "height": 42,
+      "quantity": 2
+    },
+    {
+      "length": 84,
+      "width": 70,
+      "height": 41,
+      "quantity": 4
+    },
+    {
+      "length": 98,
+      "width": 48,
+      "height": 44,
+      "quantity": 2
+    },
+    {
+      "length": 54,
+      "width": 43,
+      "height": 25,
+      "quantity": 1
+    },
+    {
+      "length": 63,
+      "width": 61,
+      "height": 49,
+      "quantity": 2
+    },
+    {
+      "length": 106,
+      "width": 96,
+      "height": 51,
+      "quantity": 2
+    },
+    {
+      "length": 97,
+      "width": 64,
+      "height": 26,
+      "quantity": 1
+    },
+    {
+      "length": 68,
+      "width": 39,
+      "height": 29,
+      "quantity": 4
+    },
+    {
+      "length": 68,
+      "width": 62,
+      "height": 39,
+      "quantity": 1
+    },
+    {
+      "length": 100,
+      "width": 38,
+      "height": 25,
+      "quantity": 1
+    },
+    {
+      "length": 91,
+      "width": 53,
+      "height": 26,
+      "quantity": 1
+    },
+    {
+      "length": 74,
+      "width": 72,
+      "height": 22,
+      "quantity": 1
+    },
+    {
+      "length": 74,
+      "width": 61,
+      "height": 51,
+      "quantity": 1
+    },
+    {
+      "length": 98,
+      "width": 91,
+      "height": 44,
+      "quantity": 1
+    },
+    {
+      "length": 67,
+      "width": 61,
+      "height": 31,
+      "quantity": 1
+    },
+    {
+      "length": 119,
+      "width": 88,
+      "height": 40,
+      "quantity": 1
+    },
+    {
+      "length": 97,
+      "width": 95,
+      "height": 31,
+      "quantity": 2
+    },
+    {
+      "length": 73,
+      "width": 43,
+      "height": 27,
+      "quantity": 1
+    },
+    {
+      "length": 62,
+      "width": 55,
+      "height": 33,
+      "quantity": 2
+    },
+    {
+      "length": 51,
+      "width": 46,
+      "height": 43,
+      "quantity": 2
+    },
+    {
+      "length": 101,
+      "width": 48,
+      "height": 29,
+      "quantity": 2
+    },
+    {
+      "length": 87,
+      "width": 62,
+      "height": 51,
+      "quantity": 2
+    },
+    {
+      "length": 70,
+      "width": 61,
+      "height": 47,
+      "quantity": 1
+    },
+    {
+      "length": 89,
+      "width": 58,
+      "height": 56,
+      "quantity": 1
+    },
+    {
+      "length": 69,
+      "width": 58,
+      "height": 57,
+      "quantity": 2
+    },
+    {
+      "length": 96,
+      "width": 35,
+      "height": 33,
+      "quantity": 2
+    },
+    {
+      "length": 92,
+      "width": 62,
+      "height": 26,
+      "quantity": 5
+    },
+    {
+      "length": 72,
+      "width": 52,
+      "height": 45,
+      "quantity": 1
+    },
+    {
+      "length": 99,
+      "width": 36,
+      "height": 27,
+      "quantity": 2
+    },
+    {
+      "length": 45,
+      "width": 33,
+      "height": 24,
+      "quantity": 1
+    },
+    {
+      "length": 91,
+      "width": 82,
+      "height": 75,
+      "quantity": 1
+    },
+    {
+      "length": 101,
+      "width": 94,
+      "height": 46,
+      "quantity": 2
+    },
+    {
+      "length": 74,
+      "width": 53,
+      "height": 26,
+      "quantity": 3
+    },
+    {
+      "length": 108,
+      "width": 55,
+      "height": 31,
+      "quantity": 3
+    },
+    {
+      "length": 85,
+      "width": 42,
+      "height": 21,
+      "quantity": 1
+    },
+    {
+      "length": 112,
+      "width": 68,
+      "height": 54,
+      "quantity": 2
+    },
+    {
+      "length": 85,
+      "width": 67,
+      "height": 42,
+      "quantity": 1
+    },
+    {
+      "length": 56,
+      "width": 54,
+      "height": 32,
+      "quantity": 1
+    },
+    {
+      "length": 109,
+      "width": 73,
+      "height": 51,
+      "quantity": 1
+    },
+    {
+      "length": 106,
+      "width": 77,
+      "height": 28,
+      "quantity": 2
+    },
+    {
+      "length": 98,
+      "width": 58,
+      "height": 39,
+      "quantity": 1
+    },
+    {
+      "length": 55,
+      "width": 43,
+      "height": 27,
+      "quantity": 3
+    },
+    {
+      "length": 95,
+      "width": 56,
+      "height": 48,
+      "quantity": 2
+    },
+    {
+      "length": 66,
+      "width": 55,
+      "height": 38,
+      "quantity": 1
+    },
+    {
+      "length": 98,
+      "width": 59,
+      "height": 38,
+      "quantity": 1
+    },
+    {
+      "length": 84,
+      "width": 64,
+      "height": 26,
+      "quantity": 1
+    },
+    {
+      "length": 46,
+      "width": 42,
+      "height": 21,
+      "quantity": 1
+    },
+    {
+      "length": 86,
+      "width": 46,
+      "height": 37,
+      "quantity": 1
+    },
+    {
+      "length": 108,
+      "width": 90,
+      "height": 31,
+      "quantity": 2
+    },
+    {
+      "length": 100,
+      "width": 74,
+      "height": 39,
+      "quantity": 5
+    },
+    {
+      "length": 87,
+      "width": 84,
+      "height": 80,
+      "quantity": 1
+    },
+    {
+      "length": 71,
+      "width": 59,
+      "height": 50,
+      "quantity": 2
+    },
+    {
+      "length": 73,
+      "width": 37,
+      "height": 30,
+      "quantity": 2
+    },
+    {
+      "length": 67,
+      "width": 67,
+      "height": 32,
+      "quantity": 1
+    },
+    {
+      "length": 78,
+      "width": 45,
+      "height": 37,
+      "quantity": 3
+    },
+    {
+      "length": 76,
+      "width": 56,
+      "height": 24,
+      "quantity": 1
+    },
+    {
+      "length": 76,
+      "width": 55,
+      "height": 28,
+      "quantity": 1
+    },
+    {
+      "length": 72,
+      "width": 45,
+      "height": 30,
+      "quantity": 2
+    },
+    {
+      "length": 111,
+      "width": 54,
+      "height": 27,
+      "quantity": 3
+    },
+    {
+      "length": 66,
+      "width": 64,
+      "height": 30,
+      "quantity": 2
+    },
+    {
+      "length": 118,
+      "width": 61,
+      "height": 23,
+      "quantity": 1
+    },
+    {
+      "length": 66,
+      "width": 59,
+      "height": 58,
+      "quantity": 1
+    },
+    {
+      "length": 74,
+      "width": 56,
+      "height": 34,
+      "quantity": 1
+    },
+    {
+      "length": 55,
+      "width": 50,
+      "height": 37,
+      "quantity": 1
+    },
+    {
+      "length": 77,
+      "width": 75,
+      "height": 30,
+      "quantity": 1
+    },
+    {
+      "length": 64,
+      "width": 54,
+      "height": 33,
+      "quantity": 1
+    },
+    {
+      "length": 96,
+      "width": 59,
+      "height": 24,
+      "quantity": 1
+    },
+    {
+      "length": 99,
+      "width": 33,
+      "height": 28,
+      "quantity": 3
+    },
+    {
+      "length": 120,
+      "width": 65,
+      "height": 45,
+      "quantity": 1
+    },
+    {
+      "length": 93,
+      "width": 83,
+      "height": 60,
+      "quantity": 1
+    },
+    {
+      "length": 101,
+      "width": 80,
+      "height": 59,
+      "quantity": 1
+    },
+    {
+      "length": 72,
+      "width": 38,
+      "height": 22,
+      "quantity": 1
+    },
+    {
+      "length": 119,
+      "width": 76,
+      "height": 54,
+      "quantity": 1
+    },
+    {
+      "length": 79,
+      "width": 50,
+      "height": 34,
+      "quantity": 2
+    },
+    {
+      "length": 84,
+      "width": 83,
+      "height": 68,
+      "quantity": 2
+    },
+    {
+      "length": 93,
+      "width": 64,
+      "height": 36,
+      "quantity": 3
+    },
+    {
+      "length": 40,
+      "width": 38,
+      "height": 36,
+      "quantity": 2
+    },
+    {
+      "length": 98,
+      "width": 66,
+      "height": 39,
+      "quantity": 1
+    },
+    {
+      "length": 97,
+      "width": 75,
+      "height": 52,
+      "quantity": 3
+    }
+  ]
+}
