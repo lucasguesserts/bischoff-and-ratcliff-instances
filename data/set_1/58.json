@@ -1,29 +1,67 @@
 {
   "type": "input",
-  "version": "0.0.0",
+  "version": "0.3.0",
   "large_object": {
-    "length": 587,
-    "width": 233,
-    "height": 220
+    "measurement": {
+      "x": 587,
+      "y": 233,
+      "z": 220
+    }
   },
   "small_items": [
     {
-      "length": 105,
-      "width": 81,
-      "height": 46,
-      "quantity": 38
+      "measurement": {
+        "x": 105,
+        "y": 81,
+        "z": 46
+      },
+      "quantity": 38,
+      "constraint": {
+        "orientation": {
+          "xyz": true,
+          "yxz": true,
+          "zyx": false,
+          "xzy": true,
+          "zxy": true,
+          "yzx": false
+        }
+      }
     },
     {
-      "length": 115,
-      "width": 81,
-      "height": 61,
-      "quantity": 22
+      "measurement": {
+        "x": 115,
+        "y": 81,
+        "z": 61
+      },
+      "quantity": 22,
+      "constraint": {
+        "orientation": {
+          "xyz": true,
+          "yxz": true,
+          "zyx": true,
+          "xzy": true,
+          "zxy": true,
+          "yzx": true
+        }
+      }
     },
     {
-      "length": 72,
-      "width": 51,
-      "height": 23,
-      "quantity": 32
+      "measurement": {
+        "x": 72,
+        "y": 51,
+        "z": 23
+      },
+      "quantity": 32,
+      "constraint": {
+        "orientation": {
+          "xyz": true,
+          "yxz": true,
+          "zyx": false,
+          "xzy": false,
+          "zxy": false,
+          "yzx": false
+        }
+      }
     }
   ]
 }

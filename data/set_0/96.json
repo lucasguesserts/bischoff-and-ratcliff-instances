@@ -1,17 +1,31 @@
 {
   "type": "input",
-  "version": "0.0.0",
+  "version": "0.3.0",
   "large_object": {
-    "length": 587,
-    "width": 233,
-    "height": 220
+    "measurement": {
+      "x": 587,
+      "y": 233,
+      "z": 220
+    }
   },
   "small_items": [
     {
-      "length": 64,
-      "width": 42,
-      "height": 26,
-      "quantity": 430
+      "measurement": {
+        "x": 64,
+        "y": 42,
+        "z": 26
+      },
+      "quantity": 430,
+      "constraint": {
+        "orientation": {
+          "xyz": true,
+          "yxz": true,
+          "zyx": false,
+          "xzy": true,
+          "zxy": true,
+          "yzx": false
+        }
+      }
     }
   ]
 }

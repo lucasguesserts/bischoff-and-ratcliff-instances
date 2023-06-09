@@ -1,191 +1,553 @@
 {
   "type": "input",
-  "version": "0.0.0",
+  "version": "0.3.0",
   "large_object": {
-    "length": 587,
-    "width": 233,
-    "height": 220
+    "measurement": {
+      "x": 587,
+      "y": 233,
+      "z": 220
+    }
   },
   "small_items": [
     {
-      "length": 60,
-      "width": 45,
-      "height": 26,
-      "quantity": 6
+      "measurement": {
+        "x": 60,
+        "y": 45,
+        "z": 26
+      },
+      "quantity": 6,
+      "constraint": {
+        "orientation": {
+          "xyz": true,
+          "yxz": true,
+          "zyx": false,
+          "xzy": true,
+          "zxy": true,
+          "yzx": false
+        }
+      }
     },
     {
-      "length": 71,
-      "width": 43,
-      "height": 39,
-      "quantity": 4
+      "measurement": {
+        "x": 71,
+        "y": 43,
+        "z": 39
+      },
+      "quantity": 4,
+      "constraint": {
+        "orientation": {
+          "xyz": true,
+          "yxz": true,
+          "zyx": true,
+          "xzy": true,
+          "zxy": true,
+          "yzx": true
+        }
+      }
     },
     {
-      "length": 99,
-      "width": 71,
-      "height": 64,
-      "quantity": 2
+      "measurement": {
+        "x": 99,
+        "y": 71,
+        "z": 64
+      },
+      "quantity": 2,
+      "constraint": {
+        "orientation": {
+          "xyz": true,
+          "yxz": true,
+          "zyx": true,
+          "xzy": true,
+          "zxy": true,
+          "yzx": true
+        }
+      }
     },
     {
-      "length": 61,
-      "width": 41,
-      "height": 40,
-      "quantity": 5
+      "measurement": {
+        "x": 61,
+        "y": 41,
+        "z": 40
+      },
+      "quantity": 5,
+      "constraint": {
+        "orientation": {
+          "xyz": true,
+          "yxz": true,
+          "zyx": true,
+          "xzy": true,
+          "zxy": true,
+          "yzx": true
+        }
+      }
     },
     {
-      "length": 83,
-      "width": 79,
-      "height": 43,
-      "quantity": 2
+      "measurement": {
+        "x": 83,
+        "y": 79,
+        "z": 43
+      },
+      "quantity": 2,
+      "constraint": {
+        "orientation": {
+          "xyz": true,
+          "yxz": true,
+          "zyx": true,
+          "xzy": true,
+          "zxy": true,
+          "yzx": true
+        }
+      }
     },
     {
-      "length": 63,
-      "width": 52,
-      "height": 35,
-      "quantity": 2
+      "measurement": {
+        "x": 63,
+        "y": 52,
+        "z": 35
+      },
+      "quantity": 2,
+      "constraint": {
+        "orientation": {
+          "xyz": true,
+          "yxz": true,
+          "zyx": true,
+          "xzy": true,
+          "zxy": true,
+          "yzx": true
+        }
+      }
     },
     {
-      "length": 54,
-      "width": 33,
-      "height": 20,
-      "quantity": 2
+      "measurement": {
+        "x": 54,
+        "y": 33,
+        "z": 20
+      },
+      "quantity": 2,
+      "constraint": {
+        "orientation": {
+          "xyz": true,
+          "yxz": true,
+          "zyx": false,
+          "xzy": true,
+          "zxy": true,
+          "yzx": false
+        }
+      }
     },
     {
-      "length": 62,
-      "width": 57,
-      "height": 51,
-      "quantity": 3
+      "measurement": {
+        "x": 62,
+        "y": 57,
+        "z": 51
+      },
+      "quantity": 3,
+      "constraint": {
+        "orientation": {
+          "xyz": true,
+          "yxz": true,
+          "zyx": true,
+          "xzy": true,
+          "zxy": true,
+          "yzx": true
+        }
+      }
     },
     {
-      "length": 79,
-      "width": 76,
-      "height": 71,
-      "quantity": 1
+      "measurement": {
+        "x": 79,
+        "y": 76,
+        "z": 71
+      },
+      "quantity": 1,
+      "constraint": {
+        "orientation": {
+          "xyz": true,
+          "yxz": true,
+          "zyx": true,
+          "xzy": true,
+          "zxy": true,
+          "yzx": true
+        }
+      }
     },
     {
-      "length": 91,
-      "width": 81,
-      "height": 48,
-      "quantity": 4
+      "measurement": {
+        "x": 91,
+        "y": 81,
+        "z": 48
+      },
+      "quantity": 4,
+      "constraint": {
+        "orientation": {
+          "xyz": true,
+          "yxz": true,
+          "zyx": true,
+          "xzy": true,
+          "zxy": true,
+          "yzx": true
+        }
+      }
     },
     {
-      "length": 95,
-      "width": 70,
-      "height": 23,
-      "quantity": 5
+      "measurement": {
+        "x": 95,
+        "y": 70,
+        "z": 23
+      },
+      "quantity": 5,
+      "constraint": {
+        "orientation": {
+          "xyz": true,
+          "yxz": true,
+          "zyx": false,
+          "xzy": false,
+          "zxy": false,
+          "yzx": false
+        }
+      }
     },
     {
-      "length": 101,
-      "width": 57,
-      "height": 42,
-      "quantity": 4
+      "measurement": {
+        "x": 101,
+        "y": 57,
+        "z": 42
+      },
+      "quantity": 4,
+      "constraint": {
+        "orientation": {
+          "xyz": true,
+          "yxz": true,
+          "zyx": false,
+          "xzy": true,
+          "zxy": true,
+          "yzx": false
+        }
+      }
     },
     {
-      "length": 119,
-      "width": 76,
-      "height": 61,
-      "quantity": 7
+      "measurement": {
+        "x": 119,
+        "y": 76,
+        "z": 61
+      },
+      "quantity": 7,
+      "constraint": {
+        "orientation": {
+          "xyz": true,
+          "yxz": true,
+          "zyx": true,
+          "xzy": true,
+          "zxy": true,
+          "yzx": true
+        }
+      }
     },
     {
-      "length": 78,
-      "width": 54,
-      "height": 22,
-      "quantity": 2
+      "measurement": {
+        "x": 78,
+        "y": 54,
+        "z": 22
+      },
+      "quantity": 2,
+      "constraint": {
+        "orientation": {
+          "xyz": true,
+          "yxz": true,
+          "zyx": false,
+          "xzy": false,
+          "zxy": false,
+          "yzx": false
+        }
+      }
     },
     {
-      "length": 93,
-      "width": 68,
-      "height": 25,
-      "quantity": 4
+      "measurement": {
+        "x": 93,
+        "y": 68,
+        "z": 25
+      },
+      "quantity": 4,
+      "constraint": {
+        "orientation": {
+          "xyz": true,
+          "yxz": true,
+          "zyx": false,
+          "xzy": false,
+          "zxy": false,
+          "yzx": false
+        }
+      }
     },
     {
-      "length": 104,
-      "width": 94,
-      "height": 27,
-      "quantity": 3
+      "measurement": {
+        "x": 104,
+        "y": 94,
+        "z": 27
+      },
+      "quantity": 3,
+      "constraint": {
+        "orientation": {
+          "xyz": true,
+          "yxz": true,
+          "zyx": false,
+          "xzy": false,
+          "zxy": false,
+          "yzx": false
+        }
+      }
     },
     {
-      "length": 66,
-      "width": 65,
-      "height": 36,
-      "quantity": 6
+      "measurement": {
+        "x": 66,
+        "y": 65,
+        "z": 36
+      },
+      "quantity": 6,
+      "constraint": {
+        "orientation": {
+          "xyz": true,
+          "yxz": true,
+          "zyx": true,
+          "xzy": true,
+          "zxy": true,
+          "yzx": true
+        }
+      }
     },
     {
-      "length": 68,
-      "width": 66,
-      "height": 48,
-      "quantity": 5
+      "measurement": {
+        "x": 68,
+        "y": 66,
+        "z": 48
+      },
+      "quantity": 5,
+      "constraint": {
+        "orientation": {
+          "xyz": true,
+          "yxz": true,
+          "zyx": true,
+          "xzy": true,
+          "zxy": true,
+          "yzx": true
+        }
+      }
     },
     {
-      "length": 100,
-      "width": 46,
-      "height": 21,
-      "quantity": 6
+      "measurement": {
+        "x": 100,
+        "y": 46,
+        "z": 21
+      },
+      "quantity": 6,
+      "constraint": {
+        "orientation": {
+          "xyz": true,
+          "yxz": true,
+          "zyx": false,
+          "xzy": false,
+          "zxy": false,
+          "yzx": false
+        }
+      }
     },
     {
-      "length": 106,
-      "width": 81,
-      "height": 30,
-      "quantity": 5
+      "measurement": {
+        "x": 106,
+        "y": 81,
+        "z": 30
+      },
+      "quantity": 5,
+      "constraint": {
+        "orientation": {
+          "xyz": true,
+          "yxz": true,
+          "zyx": false,
+          "xzy": false,
+          "zxy": false,
+          "yzx": false
+        }
+      }
     },
     {
-      "length": 55,
-      "width": 40,
-      "height": 32,
-      "quantity": 8
+      "measurement": {
+        "x": 55,
+        "y": 40,
+        "z": 32
+      },
+      "quantity": 8,
+      "constraint": {
+        "orientation": {
+          "xyz": true,
+          "yxz": true,
+          "zyx": true,
+          "xzy": true,
+          "zxy": true,
+          "yzx": true
+        }
+      }
     },
     {
-      "length": 83,
-      "width": 28,
-      "height": 20,
-      "quantity": 5
+      "measurement": {
+        "x": 83,
+        "y": 28,
+        "z": 20
+      },
+      "quantity": 5,
+      "constraint": {
+        "orientation": {
+          "xyz": true,
+          "yxz": true,
+          "zyx": false,
+          "xzy": true,
+          "zxy": true,
+          "yzx": false
+        }
+      }
     },
     {
-      "length": 103,
-      "width": 79,
-      "height": 68,
-      "quantity": 4
+      "measurement": {
+        "x": 103,
+        "y": 79,
+        "z": 68
+      },
+      "quantity": 4,
+      "constraint": {
+        "orientation": {
+          "xyz": true,
+          "yxz": true,
+          "zyx": true,
+          "xzy": true,
+          "zxy": true,
+          "yzx": true
+        }
+      }
     },
     {
-      "length": 38,
-      "width": 28,
-      "height": 25,
-      "quantity": 3
+      "measurement": {
+        "x": 38,
+        "y": 28,
+        "z": 25
+      },
+      "quantity": 3,
+      "constraint": {
+        "orientation": {
+          "xyz": true,
+          "yxz": true,
+          "zyx": true,
+          "xzy": true,
+          "zxy": true,
+          "yzx": true
+        }
+      }
     },
     {
-      "length": 81,
-      "width": 58,
-      "height": 29,
-      "quantity": 7
+      "measurement": {
+        "x": 81,
+        "y": 58,
+        "z": 29
+      },
+      "quantity": 7,
+      "constraint": {
+        "orientation": {
+          "xyz": true,
+          "yxz": true,
+          "zyx": false,
+          "xzy": false,
+          "zxy": false,
+          "yzx": false
+        }
+      }
     },
     {
-      "length": 96,
-      "width": 80,
-      "height": 74,
-      "quantity": 5
+      "measurement": {
+        "x": 96,
+        "y": 80,
+        "z": 74
+      },
+      "quantity": 5,
+      "constraint": {
+        "orientation": {
+          "xyz": true,
+          "yxz": true,
+          "zyx": true,
+          "xzy": true,
+          "zxy": true,
+          "yzx": true
+        }
+      }
     },
     {
-      "length": 88,
-      "width": 63,
-      "height": 26,
-      "quantity": 7
+      "measurement": {
+        "x": 88,
+        "y": 63,
+        "z": 26
+      },
+      "quantity": 7,
+      "constraint": {
+        "orientation": {
+          "xyz": true,
+          "yxz": true,
+          "zyx": false,
+          "xzy": false,
+          "zxy": false,
+          "yzx": false
+        }
+      }
     },
     {
-      "length": 74,
-      "width": 56,
-      "height": 43,
-      "quantity": 2
+      "measurement": {
+        "x": 74,
+        "y": 56,
+        "z": 43
+      },
+      "quantity": 2,
+      "constraint": {
+        "orientation": {
+          "xyz": true,
+          "yxz": true,
+          "zyx": true,
+          "xzy": true,
+          "zxy": true,
+          "yzx": true
+        }
+      }
     },
     {
-      "length": 93,
-      "width": 89,
-      "height": 76,
-      "quantity": 6
+      "measurement": {
+        "x": 93,
+        "y": 89,
+        "z": 76
+      },
+      "quantity": 6,
+      "constraint": {
+        "orientation": {
+          "xyz": true,
+          "yxz": true,
+          "zyx": true,
+          "xzy": true,
+          "zxy": true,
+          "yzx": true
+        }
+      }
     },
     {
-      "length": 69,
-      "width": 69,
-      "height": 57,
-      "quantity": 5
+      "measurement": {
+        "x": 69,
+        "y": 69,
+        "z": 57
+      },
+      "quantity": 5,
+      "constraint": {
+        "orientation": {
+          "xyz": true,
+          "yxz": true,
+          "zyx": true,
+          "xzy": true,
+          "zxy": true,
+          "yzx": true
+        }
+      }
     }
   ]
 }

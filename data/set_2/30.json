@@ -1,41 +1,103 @@
 {
   "type": "input",
-  "version": "0.0.0",
+  "version": "0.3.0",
   "large_object": {
-    "length": 587,
-    "width": 233,
-    "height": 220
+    "measurement": {
+      "x": 587,
+      "y": 233,
+      "z": 220
+    }
   },
   "small_items": [
     {
-      "length": 64,
-      "width": 53,
-      "height": 32,
-      "quantity": 40
+      "measurement": {
+        "x": 64,
+        "y": 53,
+        "z": 32
+      },
+      "quantity": 40,
+      "constraint": {
+        "orientation": {
+          "xyz": true,
+          "yxz": true,
+          "zyx": false,
+          "xzy": true,
+          "zxy": true,
+          "yzx": false
+        }
+      }
     },
     {
-      "length": 51,
-      "width": 42,
-      "height": 28,
-      "quantity": 46
+      "measurement": {
+        "x": 51,
+        "y": 42,
+        "z": 28
+      },
+      "quantity": 46,
+      "constraint": {
+        "orientation": {
+          "xyz": true,
+          "yxz": true,
+          "zyx": true,
+          "xzy": true,
+          "zxy": true,
+          "yzx": true
+        }
+      }
     },
     {
-      "length": 49,
-      "width": 32,
-      "height": 30,
-      "quantity": 31
+      "measurement": {
+        "x": 49,
+        "y": 32,
+        "z": 30
+      },
+      "quantity": 31,
+      "constraint": {
+        "orientation": {
+          "xyz": true,
+          "yxz": true,
+          "zyx": true,
+          "xzy": true,
+          "zxy": true,
+          "yzx": true
+        }
+      }
     },
     {
-      "length": 109,
-      "width": 68,
-      "height": 59,
-      "quantity": 41
+      "measurement": {
+        "x": 109,
+        "y": 68,
+        "z": 59
+      },
+      "quantity": 41,
+      "constraint": {
+        "orientation": {
+          "xyz": true,
+          "yxz": true,
+          "zyx": true,
+          "xzy": true,
+          "zxy": true,
+          "yzx": true
+        }
+      }
     },
     {
-      "length": 66,
-      "width": 43,
-      "height": 32,
-      "quantity": 38
+      "measurement": {
+        "x": 66,
+        "y": 43,
+        "z": 32
+      },
+      "quantity": 38,
+      "constraint": {
+        "orientation": {
+          "xyz": true,
+          "yxz": true,
+          "zyx": false,
+          "xzy": true,
+          "zxy": true,
+          "yzx": false
+        }
+      }
     }
   ]
 }
